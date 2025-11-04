@@ -116,13 +116,12 @@ color:#2e2f42;
  
 .section-hero {
 background-color: #2e2f42;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 .hero-container{
-  padding-top: 188px;
-  padding-bottom: 188px;
+  
 }
-
-
 .hero-title {
 font-size: 56px;
 line-height: 1.07;
@@ -149,10 +148,12 @@ max-width: 496px;
  .button:focus{
     background-color: #404BBF;
  }
- 
- .adventures-container{
+ .section-adventures{
   padding-top: 120px;
   padding-bottom: 120px;
+  }
+ .adventures-container{
+  
  }
 .adventures-title{
 font-weight: 500;
@@ -162,16 +163,16 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 .visually-hidden {
- position: absolute;
- width: 1px;
- height: 1px;
- margin: -1px;
- border: 0;
- padding: 0;
- white-space: nowrap;
- clip-path: inset(100%);
- clip: rect(0 0 0 0);
- overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
 .adventures-item-title{
@@ -313,7 +314,6 @@ color: #434455;
 .logo-part{
 color: #f4f4fd;  
 }
-
 .footer-description{
 font-weight: 400;
 font-size: 16px;
